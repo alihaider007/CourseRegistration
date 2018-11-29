@@ -42,7 +42,7 @@ namespace CourseRegistration
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSpaStaticFiles(c =>
             {
-                c.RootPath = "ClientApp/dist";
+                c.RootPath = "wwwroot";
             });
         }
 
